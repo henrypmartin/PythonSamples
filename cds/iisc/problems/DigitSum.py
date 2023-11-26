@@ -1,7 +1,7 @@
 '''
 Created on 25-Nov-2023
 
-@author: Nomura
+@author: Henry Martin
 '''
 
 def getSumOfDigits(num:int) -> int:

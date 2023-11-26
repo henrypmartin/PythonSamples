@@ -1,7 +1,7 @@
 '''
 Created on 23-Nov-2023
 
-@author: Nomura
+@author: Henry Martin
 '''
 
 def zipList(lst1:list, lst2:list):

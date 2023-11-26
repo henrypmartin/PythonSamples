@@ -1,7 +1,7 @@
 '''
 Created on 23-Nov-2023
 
-@author: Nomura
+@author: Henry Martin
 '''
 from cds.iisc.classexample.ParentClass1 import ParentClass1
 from cds.iisc.classexample.ParentClass2 import ParentClass2

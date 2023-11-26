@@ -1,7 +1,7 @@
 '''
 Created on 22-Nov-2023
 
-@author: Nomura
+@author: Henry Martin
 '''
 from cds.iisc.classexample.SimpleClass import SimpleClass
 

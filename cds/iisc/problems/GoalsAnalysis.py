@@ -1,17 +1,19 @@
 '''
 Created on 24-Nov-2023
 
-@author: Nomura
+@author: Henry Martin
 '''
 import pandas as pd
-from pandas.core.series import Series as series
-from pandas.core.groupby.generic import SeriesGroupBy as seriesGB
 import random
 
 df = pd.read_csv("C:\\Henry\\Learning\\IISC_CDC\\Python\\goals.txt", 
                  delimiter=";", header=None, usecols=[0,1,2])
 
 df.columns = ['Player', 'Country', 'Time']
+
+print("\n\n")
+maxGoalsCntry = df['Country'].value_counts().reset_index().iloc[0]
+print(f'Country with max goals: {maxGoalsCntry.Country} ({maxGoalsCntry.values[1]})')
 
 print("\n\n")
 maxGoalsCntry = df['Country'].value_counts().idxmax()
